@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFundo"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="12dp"
+    tools:context="br.senac.sp.l13.terceiraapp.AppNameActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Textfild"
+        android:textColor="@color/colorLetrad"
+        android:textSize="15dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="horizontal"
+        android:background="@color/colorLetra"
+        >
+
+    <View
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="17dp"
+        android:background="@color/colorFundo"
+        android:focusable="false"
+        />
+
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+       android:orientation="vertical"
+       android:layout_marginTop="1dp"
+       android:layout_marginLeft="10dp"
+       >
+
+       <EditText
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           android:hint="Prince:" />
+
+       <EditText
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="-6dp"
+           android:hint="Image ID:" />
+
+
+
+</LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

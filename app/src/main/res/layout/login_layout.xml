@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFundo"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="12dp"
+    tools:context="br.senac.sp.l13.terceiraapp.LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sing in"
+        android:textColor="@color/colorLetra"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name/e mail address"
+        android:textColor="@color/colorLetra"
+        android:textSize="17dp"
+        android:paddingTop="50dp"
+        />
+
+    <EditText
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorFundod"
+        android:padding="8dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/colorLetra"
+        android:textSize="17dp"
+        android:paddingTop="30dp"
+        />
+
+    <EditText
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorFundod"
+        android:padding="8dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Creat a new account"
+            android:textAllCaps="false"
+            android:textColor="@color/colorLetra"
+            android:background="@color/colorFundod"
+            />
+
+        <Button
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorLetra"
+            android:background="@color/colorFundod"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
